@@ -1,0 +1,32 @@
+* {padding: 0;margin: 0;box-sizing: border-box;}
+
+body { width: 100%;height: 100%;background: burlywood;}
+.head{ width: 100%;height: 345px;;background-image: url("Tamrin.jpg")}
+.head .side{float: right;height:85px;width: 400px;padding-top: 80px;margin-right: 190px;color: darkolivegreen}
+.head .side h{font-size: 60px;font-weight: bold}
+.head .side p{font-size: 30px}
+
+.body{ width: 100%;height: 1100px;background: darkseagreen;margin-top: 15px;padding:15px}
+.body .side1{border:0 solid white;border-radius: 5px;height:90px;background-color: white}
+.body .side1 p{font-size: 30px;display: inline-block;padding: 30px 60px;color: darkolivegreen}
+.body .side1 p:hover{color: burlywood}
+.body .side2{ margin-top:30px;float: left;width: 340px}
+.body .side2 .box{ border: 0 solid burlywood;height: 70px;width: 100%;background-color: burlywood;font-size: 30px;
+    font-weight: bold;padding: 15px 40px}
+.body .side2 .box2{border: 0 solid white;height:320px;background-color: white;margin-top: 10px}
+.body .side2 .box2 p{font-size: 20px;padding: 8px 40px}
+.body .side2 .box3{ border: 0 solid burlywood;height: 70px;width: 100%;background-color: burlywood;font-size: 30px;
+    font-weight: bold;padding: 15px 40px;margin-top:30px}
+.body .side2 .box4{border: 0 solid white;height:320px;background-color: white;margin-top: 10px}
+.body .side2 .box4 p{font-size: 20px;padding: 8px 40px}
+
+.body .side3{ margin:30px;float: left;width: 73%;height: 828px;background:white;padding: 10px 10px }
+.body .side3 h{font-size: 30px;font-weight: bold}
+.body .side3 p{font-size: 20px}
+.body .side3 .part2{padding-top: 40px}
+.body .side3 .part2 h{color: black}
+.body .side3 .part2 .txt{float: left;font-size: 30px;font-weight: bold ;width:450px}
+,body .side3 .part2 .txt2{float: right;font-size: 30px;font-weight: bold; width: 300px}
+.body .side4{border: 0 solid burlywood;background-color: burlywood;width: 100%;height: 100px;display: inline-block;
+    text-align: center;font-size: 20px;padding-top:33px }
+.body .side4:hover{color: darkolivegreen}

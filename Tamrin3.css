@@ -1,0 +1,48 @@
+* {padding: 0;margin: 0;box-sizing: border-box;}
+
+body{ width: 100%;height: 1000px;background: white}
+.header{ width: 100%;height:70px;background: black}
+.header .side1{ float: left;font-size: 20px;padding: 20px 160px;border: 0 solid black}
+.header .side1 p{ display: inline-block;padding-left: 25px;color: gray}
+.header .side1 p:hover{ color: white}
+.header .side2{ color: gray;font-size: 20px;float: right;padding: 20px 150px}
+.header .side2:hover{ color: white}
+
+.body2{ width: 100%;height:560px;background:white}
+.body2 .side1{width: 100%;height: 75px}
+.body2 .side1{float: left;padding-left: 175px}
+.body2 .side1 .txt .left{display: inline-block}
+.body2 .side1 .txt .left p{font-size: 35px}
+.body2 .side1 .txt .right{float: right;padding-right: 1075px;margin-top: 10px}
+.body2 .side1 .txt .right p{font-size: 24px;color: gray}
+.body2 .side1 p{ font-size: 35px;display: inline-block;padding: 30px 3px}
+
+.body2 .side2{float: left;padding-left: 175px;width: 50%;height: 400px;margin-top: 35px}
+.body2 .side2 .up{display: inline-flex;margin-bottom: 70px}
+.body2 .side2 .up h{font-size: 30px;color: dodgerblue}
+.body2 .side2 .up p{font-size: 17px;padding-right: 30px}
+.body2 .side2 .bottom{display: inline-flex}
+.body2 .side2 .bottom h{font-size: 30px;color: dodgerblue}
+.body2 .side2 .bottom p{font-size: 17px;padding-right: 30px}
+
+.body2 .side3{float: right;padding:0 175px 30px 10px;width: 50%;height: 400px;margin-top: 35px}
+.body2 .side3 .up{display: inline-flex;margin-bottom: 70px}
+.body2 .side3 .up h{font-size: 30px;color: dodgerblue}
+.body2 .side3 .up p{font-size: 17px}
+.body2 .side3 .bottom{display: inline-flex}
+.body2 .side3 .bottom h{font-size: 30px;color: dodgerblue}
+.body2 .side3 .bottom p{font-size: 17px}
+
+.body3{width: 100%;height:390px ;background: lightskyblue;display: inline-flex }
+.body3 .side1{padding-left: 140px ;text-align:center;margin-top: 190px}
+.body3 .side1 h{font-size: 30px;color: midnightblue}
+.body3 .side1 p{font-size:16px;color: darkslategray}
+
+.body3 .side2{padding-top:190px;text-align: center;margin: 0 10px 0 10px}
+.body3 .side2 h{font-size: 30px;color: midnightblue}
+.body3 .side2 p{font-size: 16px;color: darkslategray}
+
+.body3 .side3{padding-right: 140px ;text-align: center;margin-top: 190px}
+.body3 .side3 h{font-size: 30px;color: midnightblue}
+.body3 .side3 p{font-size: 16px;color: darkslategray}
+.finish{ width: 100%; height: 95px;color: black;font-size: 17px;text-align: center;padding-top: 30px}
